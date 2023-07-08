@@ -1,0 +1,17 @@
+@import 'normalize-scss';
+@include normalize();
+
+@import './utils/mixin-font-size';
+@import './utils/mixin-media';
+@import './utils/visually-hidden';
+
+@import './animation/animation';
+
+@import './base/common';
+@import './base/variables';
+
+@import './compoments/container';
+
+@import './compoments/header';
+@import './compoments/content';
+@import './compoments/footer';
