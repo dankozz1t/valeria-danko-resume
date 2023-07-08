@@ -2,23 +2,23 @@
   margin-left: auto;
   margin-right: auto;
 
-  padding-left: 20px;
-  padding-right: 20px;
   width: 100%;
 
   @include media(mobile-only) {
     max-width: $mobile;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   @include media(tablet-only) {
     width: $tablet;
-    padding-left: 32px;
-    padding-right: 32px;
+    padding-left: 120px;
+    padding-right: 120px;
   }
 
   @include media(desktop) {
     width: $desktop;
-    padding-left: 16px;
-    padding-right: 16px;
+    padding-left: 180px;
+    padding-right: 180px;
   }
 }
