@@ -1,1 +1,0 @@
-# valeria-danko-resume
