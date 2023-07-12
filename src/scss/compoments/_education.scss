@@ -1,0 +1,26 @@
+.education {
+  background-color: var(--primary-cl);
+}
+.education-list {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  color: var(--accent-cl);
+}
+.education-list__item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.education-list__item__header {
+    font-size: 35px;
+}
+.education-list__item__text {
+    font-size: 15px;
+}
+.education-header {
+  color: var(--text-cl);
+}
+.education-text {
+  color: var(--text-cl);
+}
