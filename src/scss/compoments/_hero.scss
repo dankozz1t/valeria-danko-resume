@@ -1,0 +1,28 @@
+.hero {
+    background-color: var(--primary-cl);
+    padding-bottom: 90px;
+}
+.hero-header {
+    font-size: 90px;
+    max-width: 600px;
+    margin-bottom: 30px;
+    color: var(--accent-cl);
+}
+.hero-text {
+    margin-bottom: 60px;
+    color: var(--text-cl);
+}
+.hero-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.hero-list__item__white {
+    color: var(--text-cl);
+}
+.hero-list__item__gray {
+    color: var(--add-text-cl);
+}
+.hero-list__item__beige {
+    color: var(--accent-cl);
+}
