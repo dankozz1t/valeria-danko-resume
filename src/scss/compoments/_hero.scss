@@ -1,52 +1,70 @@
 .hero {
   background-color: var(--primary-cl);
   padding-bottom: 90px;
+
   @include media(mobile-only) {
     display: flex;
     margin: 0 auto;
   }
+
+  @include media(tablet) {
+    padding-top: 90px;
+  }
 }
-.hero-header {
+
+.hero__title {
   color: var(--accent-cl);
   margin-bottom: 30px;
+
   @include media(mobile-only) {
     font-size: 45px;
     font-weight: 500;
     text-align: center;
   }
+
   @include media(tablet) {
     font-size: 90px;
     max-width: 600px;
   }
 }
-.hero-text {
+
+.hero__text {
   margin-bottom: 40px;
   color: var(--text-cl);
+
   @include media(mobile-only) {
     text-align: center;
   }
 }
-.hero-collage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    margin-bottom: 20px;
+
+.hero__collage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-bottom: 20px;
+
   @include media(tablet) {
     display: none;
   }
 }
-.hero-list {
+
+.hero__list {
   display: flex;
   flex-direction: column;
   gap: 25px;
 }
-.hero-list__item__white {
-  color: var(--text-cl);
-}
-.hero-list__item__gray {
-  color: var(--add-text-cl);
-}
-.hero-list__item__beige {
-  color: var(--accent-cl);
+
+.hero__item {
+  &--white {
+    color: var(--text-cl);
+  }
+
+  &--gray {
+    color: var(--add-text-cl);
+  }
+
+  &--beige {
+    color: var(--accent-cl);
+  }
 }
