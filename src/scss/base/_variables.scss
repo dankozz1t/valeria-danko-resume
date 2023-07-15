@@ -1,4 +1,4 @@
-$mobile: 320px;
+$mobile: 290px; //15 paddings
 $tablet: 768px;
 $desktop: 1280px;
 
@@ -9,13 +9,13 @@ $desktop: 1280px;
 
   // Colors
   --primary-cl: #212121;
-  --accent-cl: #ECD8BD;
-  
-  --pressed-state-cl: #E5B471;
+  --accent-cl: #ecd8bd;
+
+  --pressed-state-cl: #e5b471;
 
   --text-cl: #ffffff;
-  --add-text-cl: #9E9E9E;
+  --add-text-cl: #9e9e9e;
 
-  --icon-cl: #B58224;
-  --arrow-up-cl: #FFD28D;
+  --icon-cl: #b58224;
+  --arrow-up-cl: #ffd28d;
 }
