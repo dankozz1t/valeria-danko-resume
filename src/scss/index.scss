@@ -8,10 +8,17 @@
 @import './animation/animation';
 
 @import './base/common';
+@import './base/fonts';
 @import './base/variables';
 
 @import './compoments/container';
+@import './compoments/button';
 
 @import './compoments/header';
+@import './compoments/nav-list';
+
+@import './compoments/hero';
+@import './compoments/slider';
+@import './compoments/education';
 @import './compoments/content';
 @import './compoments/footer';
