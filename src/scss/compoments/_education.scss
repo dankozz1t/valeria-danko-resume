@@ -1,26 +1,33 @@
 .education {
   background-color: var(--primary-cl);
 }
-.education-list {
+
+.education__list {
   display: flex;
   flex-direction: column;
   gap: 50px;
+
   color: var(--accent-cl);
 }
-.education-list__item {
+
+.education__item {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-.education-list__item__header {
-    font-size: 35px;
+
+.education__sub-title {
+  font-size: 35px;
 }
-.education-list__item__text {
-    font-size: 15px;
+
+.education__description {
+  font-size: 15px;
 }
-.education-header {
+
+.education__title {
   color: var(--text-cl);
 }
-.education-text {
+
+.education__text {
   color: var(--text-cl);
 }
