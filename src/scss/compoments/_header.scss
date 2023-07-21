@@ -1,6 +1,7 @@
 .header {
   background-color: var(--primary-cl);
 
+  padding: 15px;
   @include media(mobile-only) {
     height: 50px;
   }
